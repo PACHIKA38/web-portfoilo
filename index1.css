@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+body{
+    background-image: url('./img/bk1.png');
+    min-width: 100vh;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(236, 179, 179);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+   
+}
+.navBar{
+    display: flex;
+}
+.navBar li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navBar li a{
+    /* font-size: 25px; */
+    color: black;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navBar li:hover a ,.links a:hover{
+    color: salmon;
+
+}
+
+.links a{
+    font-size: 30px;
+    color: black;
+    margin :25px 10px;
+}
+
+.info-me{
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+.box-info{
+    width: 60%;
+ 
+ /* background-color: #4a6fa5; */
+    
+}
+
+.box-img{
+    width: 40%;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aboutme{
+    margin: 10%;
+    border: 1px solid #000;
+    background-color: #fae1dd;
+}
+
+.content-info{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.imgbox{
+    padding: 15%; 
+
+}
+
+.topline{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    /* background-color: #3d535f; */
+}
+
+.topline::after{
+    position:absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: salmon;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: 900;
+    color: #000000;
+}
+.multiText{
+    color: salmon;
+    text-transform: capitalize;
+
+}
+
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.2em;
+    margin-top: 1%;
+    color: #000000;
+}
+
+.btns{
+    width: 100%;
+    /* position: relative;
+    left: 150px; */
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background-color: #000;
+    padding: 2%;
+    margin: 40px 5px;
+    letter-spacing: capitalize;
+    border-radius: 6%;
+    /* box-shadow: 0 15px 10px #4a6fa5; */
+}
+
+button:hover{
+    background-color: salmon;
+}
+
+.con-skills{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+
+
+.con-skills h1{
+    font-size: 50px;
+    border-bottom:2px solid #000000;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-icon{
+    margin-top: 8%;
+    width: 70%;
+    /* background-color: #4a6fa5; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-icon i{
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.projects{
+    
+}
