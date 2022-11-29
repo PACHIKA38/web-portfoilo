@@ -363,3 +363,37 @@ button:hover {
 .list-ex ul{
   margin-top: 5%;
 }
+
+.contact{
+  padding-top: 10%;
+}
+
+.box-con{
+  width: 50%;
+  background-color: rgb(255, 218, 214);
+  margin: 0 auto;
+  padding: 8%;
+  margin-bottom: 20%;
+  border: 1px solid #000 ;
+  min-width: 50vh;
+
+}
+.box-con h1{
+  text-align: center;
+  margin-bottom: 8%;
+}
+.box-contact{
+  margin: 0 auto;
+}
+.box-icon{
+  margin-top: 3%;
+  text-align: center;
+}
+.box-icon i{
+  font-size: 30px;
+  color: #000000;
+
+}
+.box-icon i:hover{
+  color: white;
+}
